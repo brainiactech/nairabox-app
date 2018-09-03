@@ -4,7 +4,7 @@ var app = {
 	pushToken: "DEVEL_TOKEN",
 	timeoutPeriod: 300000,
 	versionNumber: "10",
-	buildNumber: 1774,
+	buildNumber: 1775,
 
 	start: function () {
 		app.base = "https://mapp.nairabox.com:8443/";

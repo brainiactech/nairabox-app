@@ -2,8 +2,8 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.nairabox.app"
-	versionCode = "1774"
-	version = "10">
+	versionCode = "1775"
+	version = "11">
 
 	<name>nairabox</name>
 
