@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id = "com.nairabox.app"
-	versionCode = "1775"
+	versionCode = "1776"
 	version = "11">
 
 	<name>nairabox</name>
