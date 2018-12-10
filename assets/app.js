@@ -3,14 +3,14 @@ var app = {
 	platform: "DEVEL_PLATFORM",
 	pushToken: "DEVEL_TOKEN",
 	timeoutPeriod: 300000,
-	versionNumber: "10",
-	buildNumber: 1775,
+	versionNumber: "11",
+	buildNumber: 1776,
 
 	start: function () {
 		app.base = "https://mapp.nairabox.com:8443/";
 		//app.base = "https://revision.nairabox.com/";
 		//app.base = "http://localhost/nairabox-fep/";
-		app.API = app.base + "api/v9.5/";
+		app.API = app.base + "api/v10x/";
 		app.withWalletAPI = app.base + "api/FoodWithWallet/";
 
 		if (app.isLiveApp) document.addEventListener("deviceready", app.SetDefaults, false);
@@ -934,7 +934,7 @@ selectContact: function (callback) {
 			}
 		});
 	}
-	else callback({phone: "08179999998", name: "Damilola"});
+	// else callback({phone: "08179999998", name: "Damilola"});
 },
 
 onSelectContact: function (phone) {
